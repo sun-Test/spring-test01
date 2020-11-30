@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< sunnyexpress.com:spring-boot-admin-server >--------------
+[INFO] Building spring-boot-admin-server 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ spring-boot-admin-server ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom
+Progress (1): 2.7/6.7 kBProgress (1): 5.5/6.7 kBProgress (1): 6.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom (6.7 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom
+Progress (1): 2.7/16 kBProgress (1): 5.5/16 kBProgress (1): 8.2/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom (16 kB at 251 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom
+Progress (1): 2.7/3.4 kBProgress (1): 3.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom (3.4 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom
+Progress (1): 2.7/3.0 kBProgress (1): 3.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom (3.0 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+Progress (1): 2.7/4.4 kBProgress (1): 4.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom (4.4 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+Progress (1): 2.7/24 kBProgress (1): 5.5/24 kBProgress (1): 8.2/24 kBProgress (1): 11/24 kB Progress (1): 14/24 kBProgress (1): 16/24 kBProgress (1): 19/24 kBProgress (1): 22/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom (24 kB at 495 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom
+Progress (1): 2.7/18 kBProgress (1): 5.5/18 kBProgress (1): 8.2/18 kBProgress (1): 11/18 kB Progress (1): 14/18 kBProgress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.pom (18 kB at 457 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom
+Progress (1): 2.7/6.7 kBProgress (1): 5.5/6.7 kBProgress (1): 6.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom (6.7 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (2.7 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+Progress (1): 2.7/5.7 kBProgress (1): 5.5/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (5.7 kB at 154 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+Progress (1): 727 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (727 B at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom
+Progress (1): 2.7/11 kBProgress (1): 5.5/11 kBProgress (1): 8.2/11 kBProgress (1): 11/11 kB Progress (1): 11 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom (11 kB at 286 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar
+Progress (1): 2.7/17 kBProgress (1): 5.5/17 kBProgress (1): 8.2/17 kBProgress (1): 11/17 kB Progress (1): 14/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar (17 kB at 405 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar
+Progress (1): 2.7/128 kBProgress (1): 5.5/128 kBProgress (1): 8.2/128 kBProgress (1): 11/128 kB Progress (1): 14/128 kBProgress (1): 16/128 kBProgress (1): 19/128 kBProgress (1): 22/128 kBProgress (1): 25/128 kBProgress (1): 27/128 kBProgress (1): 30/128 kBProgress (2): 30/128 kB | 2.7/35 kBProgress (2): 33/128 kB | 2.7/35 kBProgress (2): 36/128 kB | 2.7/35 kBProgress (2): 38/128 kB | 2.7/35 kBProgress (2): 38/128 kB | 5.5/35 kBProgress (2): 38/128 kB | 8.2/35 kBProgress (3): 38/128 kB | 8.2/35 kB | 2.7/66 kBProgress (3): 38/128 kB | 11/35 kB | 2.7/66 kB Progress (3): 38/128 kB | 14/35 kB | 2.7/66 kBProgress (3): 38/128 kB | 14/35 kB | 5.5/66 kBProgress (3): 41/128 kB | 14/35 kB | 5.5/66 kBProgress (3): 41/128 kB | 16/35 kB | 5.5/66 kBProgress (3): 41/128 kB | 16/35 kB | 8.2/66 kBProgress (3): 41/128 kB | 19/35 kB | 8.2/66 kBProgress (4): 41/128 kB | 19/35 kB | 8.2/66 kB | 2.7/632 kBProgress (4): 44/128 kB | 19/35 kB | 8.2/66 kB | 2.7/632 kBProgress (5): 44/128 kB | 19/35 kB | 8.2/66 kB | 2.7/632 kB | 2.7/194 kBProgress (5): 44/128 kB | 19/35 kB | 11/66 kB | 2.7/632 kB | 2.7/194 kB Progress (5): 44/128 kB | 19/35 kB | 11/66 kB | 2.7/632 kB | 5.5/194 kBProgress (5): 44/128 kB | 19/35 kB | 14/66 kB | 2.7/632 kB | 5.5/194 kBProgress (5): 44/128 kB | 19/35 kB | 14/66 kB | 2.7/632 kB | 8.2/194 kBProgress (5): 44/128 kB | 22/35 kB | 14/66 kB | 2.7/632 kB | 8.2/194 kBProgress (5): 47/128 kB | 22/35 kB | 14/66 kB | 2.7/632 kB | 8.2/194 kBProgress (5): 47/128 kB | 22/35 kB | 14/66 kB | 5.5/632 kB | 8.2/194 kBProgress (5): 47/128 kB | 22/35 kB | 16/66 kB | 5.5/632 kB | 8.2/194 kBProgress (5): 47/128 kB | 22/35 kB | 16/66 kB | 8.2/632 kB | 8.2/194 kBProgress (5): 49/128 kB | 22/35 kB | 16/66 kB | 8.2/632 kB | 8.2/194 kBProgress (5): 49/128 kB | 25/35 kB | 16/66 kB | 8.2/632 kB | 8.2/194 kBProgress (5): 49/128 kB | 25/35 kB | 16/66 kB | 8.2/632 kB | 11/194 kB Progress (5): 49/128 kB | 27/35 kB | 16/66 kB | 8.2/632 kB | 11/194 kBProgress (5): 52/128 kB | 27/35 kB | 16/66 kB | 8.2/632 kB | 11/194 kBProgress (5): 52/128 kB | 27/35 kB | 16/66 kB | 11/632 kB | 11/194 kB Progress (5): 52/128 kB | 27/35 kB | 19/66 kB | 11/632 kB | 11/194 kBProgress (5): 52/128 kB | 27/35 kB | 19/66 kB | 14/632 kB | 11/194 kBProgress (5): 55/128 kB | 27/35 kB | 19/66 kB | 14/632 kB | 11/194 kBProgress (5): 55/128 kB | 30/35 kB | 19/66 kB | 14/632 kB | 11/194 kBProgress (5): 55/128 kB | 30/35 kB | 19/66 kB | 14/632 kB | 14/194 kBProgress (5): 55/128 kB | 33/35 kB | 19/66 kB | 14/632 kB | 14/194 kBProgress (5): 58/128 kB | 33/35 kB | 19/66 kB | 14/632 kB | 14/194 kBProgress (5): 58/128 kB | 33/35 kB | 19/66 kB | 16/632 kB | 14/194 kBProgress (5): 58/128 kB | 33/35 kB | 22/66 kB | 16/632 kB | 14/194 kBProgress (5): 58/128 kB | 33/35 kB | 22/66 kB | 19/632 kB | 14/194 kBProgress (5): 60/128 kB | 33/35 kB | 22/66 kB | 19/632 kB | 14/194 kBProgress (5): 60/128 kB | 35 kB | 22/66 kB | 19/632 kB | 14/194 kB   Progress (5): 60/128 kB | 35 kB | 22/66 kB | 19/632 kB | 16/194 kBProgress (5): 63/128 kB | 35 kB | 22/66 kB | 19/632 kB | 16/194 kBProgress (5): 63/128 kB | 35 kB | 22/66 kB | 22/632 kB | 16/194 kBProgress (5): 63/128 kB | 35 kB | 25/66 kB | 22/632 kB | 16/194 kBProgress (5): 63/128 kB | 35 kB | 25/66 kB | 25/632 kB | 16/194 kBProgress (5): 66/128 kB | 35 kB | 25/66 kB | 25/632 kB | 16/194 kBProgress (5): 66/128 kB | 35 kB | 25/66 kB | 25/632 kB | 19/194 kBProgress (5): 69/128 kB | 35 kB | 25/66 kB | 25/632 kB | 19/194 kBProgress (5): 69/128 kB | 35 kB | 25/66 kB | 27/632 kB | 19/194 kBProgress (5): 69/128 kB | 35 kB | 27/66 kB | 27/632 kB | 19/194 kBProgress (5): 69/128 kB | 35 kB | 27/66 kB | 30/632 kB | 19/194 kBProgress (5): 71/128 kB | 35 kB | 27/66 kB | 30/632 kB | 19/194 kBProgress (5): 71/128 kB | 35 kB | 27/66 kB | 30/632 kB | 22/194 kBProgress (5): 74/128 kB | 35 kB | 27/66 kB | 30/632 kB | 22/194 kBProgress (5): 74/128 kB | 35 kB | 27/66 kB | 33/632 kB | 22/194 kBProgress (5): 74/128 kB | 35 kB | 30/66 kB | 33/632 kB | 22/194 kBProgress (5): 74/128 kB | 35 kB | 30/66 kB | 36/632 kB | 22/194 kBProgress (5): 77/128 kB | 35 kB | 30/66 kB | 36/632 kB | 22/194 kBProgress (5): 77/128 kB | 35 kB | 30/66 kB | 36/632 kB | 25/194 kBProgress (5): 80/128 kB | 35 kB | 30/66 kB | 36/632 kB | 25/194 kBProgress (5): 80/128 kB | 35 kB | 30/66 kB | 38/632 kB | 25/194 kBProgress (5): 80/128 kB | 35 kB | 33/66 kB | 38/632 kB | 25/194 kBProgress (5): 80/128 kB | 35 kB | 33/66 kB | 41/632 kB | 25/194 kBProgress (5): 82/128 kB | 35 kB | 33/66 kB | 41/632 kB | 25/194 kBProgress (5): 82/128 kB | 35 kB | 33/66 kB | 41/632 kB | 27/194 kBProgress (5): 85/128 kB | 35 kB | 33/66 kB | 41/632 kB | 27/194 kBProgress (5): 85/128 kB | 35 kB | 33/66 kB | 44/632 kB | 27/194 kBProgress (5): 85/128 kB | 35 kB | 36/66 kB | 44/632 kB | 27/194 kBProgress (5): 85/128 kB | 35 kB | 36/66 kB | 47/632 kB | 27/194 kBProgress (5): 88/128 kB | 35 kB | 36/66 kB | 47/632 kB | 27/194 kBProgress (5): 88/128 kB | 35 kB | 36/66 kB | 47/632 kB | 30/194 kBProgress (5): 90/128 kB | 35 kB | 36/66 kB | 47/632 kB | 30/194 kBProgress (5): 90/128 kB | 35 kB | 36/66 kB | 49/632 kB | 30/194 kBProgress (5): 90/128 kB | 35 kB | 38/66 kB | 49/632 kB | 30/194 kBProgress (5): 90/128 kB | 35 kB | 38/66 kB | 52/632 kB | 30/194 kBProgress (5): 93/128 kB | 35 kB | 38/66 kB | 52/632 kB | 30/194 kBProgress (5): 93/128 kB | 35 kB | 38/66 kB | 52/632 kB | 33/194 kBProgress (5): 96/128 kB | 35 kB | 38/66 kB | 52/632 kB | 33/194 kBProgress (5): 96/128 kB | 35 kB | 38/66 kB | 55/632 kB | 33/194 kBProgress (5): 96/128 kB | 35 kB | 41/66 kB | 55/632 kB | 33/194 kBProgress (5): 96/128 kB | 35 kB | 41/66 kB | 58/632 kB | 33/194 kBProgress (5): 99/128 kB | 35 kB | 41/66 kB | 58/632 kB | 33/194 kBProgress (5): 99/128 kB | 35 kB | 41/66 kB | 58/632 kB | 36/194 kBProgress (5): 101/128 kB | 35 kB | 41/66 kB | 58/632 kB | 36/194 kBProgress (5): 101/128 kB | 35 kB | 41/66 kB | 60/632 kB | 36/194 kBProgress (5): 101/128 kB | 35 kB | 44/66 kB | 60/632 kB | 36/194 kBProgress (5): 101/128 kB | 35 kB | 44/66 kB | 63/632 kB | 36/194 kBProgress (5): 104/128 kB | 35 kB | 44/66 kB | 63/632 kB | 36/194 kBProgress (5): 104/128 kB | 35 kB | 44/66 kB | 63/632 kB | 38/194 kBProgress (5): 107/128 kB | 35 kB | 44/66 kB | 63/632 kB | 38/194 kBProgress (5): 107/128 kB | 35 kB | 44/66 kB | 66/632 kB | 38/194 kBProgress (5): 107/128 kB | 35 kB | 47/66 kB | 66/632 kB | 38/194 kBProgress (5): 107/128 kB | 35 kB | 47/66 kB | 69/632 kB | 38/194 kBProgress (5): 110/128 kB | 35 kB | 47/66 kB | 69/632 kB | 38/194 kBProgress (5): 110/128 kB | 35 kB | 47/66 kB | 69/632 kB | 41/194 kBProgress (5): 112/128 kB | 35 kB | 47/66 kB | 69/632 kB | 41/194 kBProgress (5): 112/128 kB | 35 kB | 47/66 kB | 71/632 kB | 41/194 kBProgress (5): 112/128 kB | 35 kB | 49/66 kB | 71/632 kB | 41/194 kBProgress (5): 112/128 kB | 35 kB | 49/66 kB | 74/632 kB | 41/194 kBProgress (5): 115/128 kB | 35 kB | 49/66 kB | 74/632 kB | 41/194 kBProgress (5): 115/128 kB | 35 kB | 49/66 kB | 74/632 kB | 44/194 kBProgress (5): 118/128 kB | 35 kB | 49/66 kB | 74/632 kB | 44/194 kBProgress (5): 118/128 kB | 35 kB | 49/66 kB | 77/632 kB | 44/194 kBProgress (5): 118/128 kB | 35 kB | 52/66 kB | 77/632 kB | 44/194 kBProgress (5): 118/128 kB | 35 kB | 52/66 kB | 80/632 kB | 44/194 kBProgress (5): 121/128 kB | 35 kB | 52/66 kB | 80/632 kB | 44/194 kBProgress (5): 121/128 kB | 35 kB | 52/66 kB | 80/632 kB | 47/194 kBProgress (5): 123/128 kB | 35 kB | 52/66 kB | 80/632 kB | 47/194 kBProgress (5): 123/128 kB | 35 kB | 52/66 kB | 82/632 kB | 47/194 kBProgress (5): 123/128 kB | 35 kB | 55/66 kB | 82/632 kB | 47/194 kBProgress (5): 123/128 kB | 35 kB | 55/66 kB | 85/632 kB | 47/194 kBProgress (5): 126/128 kB | 35 kB | 55/66 kB | 85/632 kB | 47/194 kBProgress (5): 126/128 kB | 35 kB | 55/66 kB | 85/632 kB | 49/194 kBProgress (5): 128 kB | 35 kB | 55/66 kB | 85/632 kB | 49/194 kB    Progress (5): 128 kB | 35 kB | 55/66 kB | 88/632 kB | 49/194 kBProgress (5): 128 kB | 35 kB | 58/66 kB | 88/632 kB | 49/194 kBProgress (5): 128 kB | 35 kB | 58/66 kB | 90/632 kB | 49/194 kBProgress (5): 128 kB | 35 kB | 58/66 kB | 90/632 kB | 52/194 kBProgress (5): 128 kB | 35 kB | 58/66 kB | 93/632 kB | 52/194 kBProgress (5): 128 kB | 35 kB | 60/66 kB | 93/632 kB | 52/194 kBProgress (5): 128 kB | 35 kB | 60/66 kB | 96/632 kB | 52/194 kBProgress (5): 128 kB | 35 kB | 60/66 kB | 96/632 kB | 55/194 kBProgress (5): 128 kB | 35 kB | 60/66 kB | 99/632 kB | 55/194 kBProgress (5): 128 kB | 35 kB | 63/66 kB | 99/632 kB | 55/194 kBProgress (5): 128 kB | 35 kB | 63/66 kB | 101/632 kB | 55/194 kBProgress (5): 128 kB | 35 kB | 63/66 kB | 101/632 kB | 58/194 kBProgress (5): 128 kB | 35 kB | 63/66 kB | 104/632 kB | 58/194 kBProgress (5): 128 kB | 35 kB | 66 kB | 104/632 kB | 58/194 kB   Progress (5): 128 kB | 35 kB | 66 kB | 107/632 kB | 58/194 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar (35 kB at 242 kB/s)
+Progress (4): 128 kB | 66 kB | 107/632 kB | 60/194 kBProgress (4): 128 kB | 66 kB | 110/632 kB | 60/194 kBProgress (4): 128 kB | 66 kB | 110/632 kB | 63/194 kBProgress (4): 128 kB | 66 kB | 112/632 kB | 63/194 kBProgress (4): 128 kB | 66 kB | 112/632 kB | 66/194 kBProgress (4): 128 kB | 66 kB | 115/632 kB | 66/194 kBProgress (4): 128 kB | 66 kB | 115/632 kB | 69/194 kBProgress (4): 128 kB | 66 kB | 118/632 kB | 69/194 kBProgress (4): 128 kB | 66 kB | 118/632 kB | 71/194 kBProgress (4): 128 kB | 66 kB | 121/632 kB | 71/194 kBProgress (4): 128 kB | 66 kB | 121/632 kB | 74/194 kBProgress (4): 128 kB | 66 kB | 123/632 kB | 74/194 kBProgress (4): 128 kB | 66 kB | 123/632 kB | 77/194 kBProgress (4): 128 kB | 66 kB | 123/632 kB | 80/194 kBProgress (4): 128 kB | 66 kB | 126/632 kB | 80/194 kBProgress (4): 128 kB | 66 kB | 126/632 kB | 82/194 kBProgress (4): 128 kB | 66 kB | 129/632 kB | 82/194 kBProgress (4): 128 kB | 66 kB | 129/632 kB | 85/194 kBProgress (4): 128 kB | 66 kB | 132/632 kB | 85/194 kBProgress (4): 128 kB | 66 kB | 132/632 kB | 88/194 kBProgress (4): 128 kB | 66 kB | 134/632 kB | 88/194 kBProgress (4): 128 kB | 66 kB | 134/632 kB | 90/194 kBProgress (4): 128 kB | 66 kB | 137/632 kB | 90/194 kBProgress (4): 128 kB | 66 kB | 137/632 kB | 93/194 kBProgress (4): 128 kB | 66 kB | 140/632 kB | 93/194 kBProgress (4): 128 kB | 66 kB | 140/632 kB | 96/194 kBProgress (4): 128 kB | 66 kB | 143/632 kB | 96/194 kBProgress (4): 128 kB | 66 kB | 143/632 kB | 99/194 kBProgress (4): 128 kB | 66 kB | 145/632 kB | 99/194 kBProgress (4): 128 kB | 66 kB | 145/632 kB | 101/194 kBProgress (4): 128 kB | 66 kB | 148/632 kB | 101/194 kBProgress (4): 128 kB | 66 kB | 148/632 kB | 104/194 kBProgress (4): 128 kB | 66 kB | 151/632 kB | 104/194 kBProgress (4): 128 kB | 66 kB | 151/632 kB | 107/194 kBProgress (4): 128 kB | 66 kB | 154/632 kB | 107/194 kBProgress (4): 128 kB | 66 kB | 154/632 kB | 110/194 kBProgress (4): 128 kB | 66 kB | 156/632 kB | 110/194 kBProgress (4): 128 kB | 66 kB | 156/632 kB | 112/194 kBProgress (4): 128 kB | 66 kB | 159/632 kB | 112/194 kBProgress (4): 128 kB | 66 kB | 159/632 kB | 115/194 kBProgress (4): 128 kB | 66 kB | 162/632 kB | 115/194 kBProgress (4): 128 kB | 66 kB | 162/632 kB | 118/194 kBProgress (4): 128 kB | 66 kB | 165/632 kB | 118/194 kBProgress (4): 128 kB | 66 kB | 165/632 kB | 121/194 kBProgress (4): 128 kB | 66 kB | 167/632 kB | 121/194 kBProgress (4): 128 kB | 66 kB | 167/632 kB | 123/194 kB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar (128 kB at 784 kB/s)
+Progress (3): 66 kB | 170/632 kB | 123/194 kBProgress (3): 66 kB | 170/632 kB | 126/194 kBProgress (3): 66 kB | 173/632 kB | 126/194 kBProgress (3): 66 kB | 173/632 kB | 129/194 kBProgress (3): 66 kB | 175/632 kB | 129/194 kBProgress (3): 66 kB | 175/632 kB | 132/194 kBProgress (3): 66 kB | 178/632 kB | 132/194 kBProgress (3): 66 kB | 178/632 kB | 134/194 kBProgress (3): 66 kB | 178/632 kB | 137/194 kBProgress (3): 66 kB | 181/632 kB | 137/194 kBProgress (3): 66 kB | 181/632 kB | 140/194 kBProgress (3): 66 kB | 184/632 kB | 140/194 kBProgress (3): 66 kB | 184/632 kB | 143/194 kBProgress (3): 66 kB | 184/632 kB | 145/194 kBProgress (3): 66 kB | 186/632 kB | 145/194 kBProgress (3): 66 kB | 186/632 kB | 148/194 kBProgress (3): 66 kB | 186/632 kB | 151/194 kBProgress (3): 66 kB | 186/632 kB | 154/194 kBProgress (3): 66 kB | 186/632 kB | 156/194 kBProgress (3): 66 kB | 186/632 kB | 159/194 kBProgress (3): 66 kB | 186/632 kB | 162/194 kBProgress (3): 66 kB | 186/632 kB | 165/194 kBProgress (3): 66 kB | 186/632 kB | 167/194 kBProgress (3): 66 kB | 186/632 kB | 170/194 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar (66 kB at 375 kB/s)
+Progress (2): 189/632 kB | 170/194 kBProgress (2): 189/632 kB | 173/194 kBProgress (2): 192/632 kB | 173/194 kBProgress (2): 192/632 kB | 175/194 kBProgress (2): 195/632 kB | 175/194 kBProgress (2): 195/632 kB | 178/194 kBProgress (2): 197/632 kB | 178/194 kBProgress (2): 197/632 kB | 181/194 kBProgress (2): 200/632 kB | 181/194 kBProgress (2): 200/632 kB | 184/194 kBProgress (2): 203/632 kB | 184/194 kBProgress (2): 203/632 kB | 186/194 kBProgress (2): 206/632 kB | 186/194 kBProgress (2): 206/632 kB | 189/194 kBProgress (2): 208/632 kB | 189/194 kBProgress (2): 208/632 kB | 192/194 kBProgress (2): 211/632 kB | 192/194 kBProgress (2): 211/632 kB | 194 kB    Progress (2): 214/632 kB | 194 kBProgress (2): 217/632 kB | 194 kBProgress (2): 219/632 kB | 194 kBProgress (2): 223/632 kB | 194 kBProgress (2): 227/632 kB | 194 kBProgress (2): 231/632 kB | 194 kBProgress (2): 235/632 kB | 194 kBProgress (2): 239/632 kB | 194 kBProgress (2): 243/632 kB | 194 kBProgress (2): 247/632 kB | 194 kBProgress (2): 251/632 kB | 194 kBProgress (2): 256/632 kB | 194 kBProgress (2): 260/632 kB | 194 kBProgress (2): 264/632 kB | 194 kBProgress (2): 268/632 kB | 194 kBProgress (2): 272/632 kB | 194 kBProgress (2): 276/632 kB | 194 kBProgress (2): 280/632 kB | 194 kBProgress (2): 284/632 kB | 194 kBProgress (2): 288/632 kB | 194 kBProgress (2): 292/632 kB | 194 kBProgress (2): 297/632 kB | 194 kBProgress (2): 301/632 kB | 194 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar (194 kB at 981 kB/s)
+Progress (1): 305/632 kBProgress (1): 309/632 kBProgress (1): 313/632 kBProgress (1): 317/632 kBProgress (1): 321/632 kBProgress (1): 325/632 kBProgress (1): 329/632 kBProgress (1): 333/632 kBProgress (1): 338/632 kBProgress (1): 342/632 kBProgress (1): 346/632 kBProgress (1): 350/632 kBProgress (1): 354/632 kBProgress (1): 358/632 kBProgress (1): 362/632 kBProgress (1): 366/632 kBProgress (1): 370/632 kBProgress (1): 374/632 kBProgress (1): 378/632 kBProgress (1): 383/632 kBProgress (1): 387/632 kBProgress (1): 391/632 kBProgress (1): 395/632 kBProgress (1): 399/632 kBProgress (1): 403/632 kBProgress (1): 407/632 kBProgress (1): 411/632 kBProgress (1): 415/632 kBProgress (1): 419/632 kBProgress (1): 424/632 kBProgress (1): 428/632 kBProgress (1): 432/632 kBProgress (1): 436/632 kBProgress (1): 438/632 kBProgress (1): 442/632 kBProgress (1): 446/632 kBProgress (1): 450/632 kBProgress (1): 454/632 kBProgress (1): 458/632 kBProgress (1): 463/632 kBProgress (1): 467/632 kBProgress (1): 471/632 kBProgress (1): 475/632 kBProgress (1): 479/632 kBProgress (1): 483/632 kBProgress (1): 487/632 kBProgress (1): 491/632 kBProgress (1): 495/632 kBProgress (1): 499/632 kBProgress (1): 504/632 kBProgress (1): 508/632 kBProgress (1): 512/632 kBProgress (1): 516/632 kBProgress (1): 520/632 kBProgress (1): 524/632 kBProgress (1): 528/632 kBProgress (1): 532/632 kBProgress (1): 536/632 kBProgress (1): 540/632 kBProgress (1): 544/632 kBProgress (1): 549/632 kBProgress (1): 553/632 kBProgress (1): 557/632 kBProgress (1): 561/632 kBProgress (1): 565/632 kBProgress (1): 569/632 kBProgress (1): 573/632 kBProgress (1): 577/632 kBProgress (1): 581/632 kBProgress (1): 585/632 kBProgress (1): 590/632 kBProgress (1): 594/632 kBProgress (1): 598/632 kBProgress (1): 602/632 kBProgress (1): 606/632 kBProgress (1): 610/632 kBProgress (1): 614/632 kBProgress (1): 618/632 kBProgress (1): 622/632 kBProgress (1): 626/632 kBProgress (1): 631/632 kBProgress (1): 632 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar (632 kB at 1.3 MB/s)
+[INFO] sunnyexpress.com:spring-boot-admin-server:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.3.0.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.3.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.3.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.3.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.2:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.13.2:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.26:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.3.0.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.0.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.35:compile
+[INFO] |  |  +- org.glassfish:jakarta.el:jar:3.0.3:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.35:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.2.6.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.2.6.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.2.6.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.2.6.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.2.6.RELEASE:compile
+[INFO] +- de.codecentric:spring-boot-admin-starter-server:jar:2.2.2:compile
+[INFO] |  +- de.codecentric:spring-boot-admin-server:jar:2.2.2:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-webflux:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  |  \- io.projectreactor.netty:reactor-netty:jar:0.9.7.RELEASE:compile
+[INFO] |  |  |  |     +- io.netty:netty-codec-http:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  +- io.netty:netty-common:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  +- io.netty:netty-buffer:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  +- io.netty:netty-transport:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  \- io.netty:netty-codec:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     +- io.netty:netty-codec-http2:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     +- io.netty:netty-handler:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  \- io.netty:netty-resolver:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     +- io.netty:netty-handler-proxy:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     |  \- io.netty:netty-codec-socks:jar:4.1.49.Final:compile
+[INFO] |  |  |  |     \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.49.Final:compile
+[INFO] |  |  |  |        \- io.netty:netty-transport-native-unix-common:jar:4.1.49.Final:compile
+[INFO] |  |  |  +- org.springframework:spring-webflux:jar:5.2.6.RELEASE:compile
+[INFO] |  |  |  \- org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0:compile
+[INFO] |  |  |     \- org.synchronoss.cloud:nio-stream-storage:jar:1.1.3:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  +- org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE:compile
+[INFO] |  |  |  |  \- org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE:compile
+[INFO] |  |  |  |     +- org.attoparser:attoparser:jar:2.0.5.RELEASE:compile
+[INFO] |  |  |  |     \- org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[INFO] |  |  |  \- org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.3.0.RELEASE:compile
+[INFO] |  |  |  \- io.micrometer:micrometer-core:jar:1.5.1:compile
+[INFO] |  |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[INFO] |  |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[INFO] |  |  \- io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile
+[INFO] |  |     \- io.projectreactor:reactor-core:jar:3.3.5.RELEASE:compile
+[INFO] |  |        \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] |  +- de.codecentric:spring-boot-admin-server-ui:jar:2.2.2:compile
+[INFO] |  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.2.2:compile
+[INFO] +- de.codecentric:spring-boot-admin-server-ui-login:jar:1.5.7:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-security:jar:2.3.0.RELEASE:compile
+[INFO] |  +- org.springframework:spring-aop:jar:5.2.6.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-config:jar:5.3.2.RELEASE:compile
+[INFO] |  \- org.springframework.security:spring-security-web:jar:5.3.2.RELEASE:compile
+[INFO] +- com.hazelcast:hazelcast:jar:3.12.7:compile
+[INFO] +- de.codecentric:spring-boot-admin-starter-client:jar:2.2.2:compile
+[INFO] |  \- de.codecentric:spring-boot-admin-client:jar:2.2.2:compile
+[INFO] |     \- org.jolokia:jolokia-core:jar:1.6.2:compile
+[INFO] |        \- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-mail:jar:2.3.0.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context-support:jar:5.2.6.RELEASE:compile
+[INFO] |  \- com.sun.mail:jakarta.mail:jar:1.6.5:compile
+[INFO] |     \- com.sun.activation:jakarta.activation:jar:1.2.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.3.0.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.3.0.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.0.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  +- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |  |  \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |  |     \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.16.1:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  |  \- org.junit.platform:junit-platform-commons:jar:1.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[INFO] |  +- org.junit.vintage:junit-vintage-engine:jar:5.6.2:test
+[INFO] |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO] |  |  +- org.junit.platform:junit-platform-engine:jar:1.6.2:test
+[INFO] |  |  \- junit:junit:jar:4.13:test
+[INFO] |  +- org.mockito:mockito-core:jar:3.3.3:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.10.10:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.10:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.2.6.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.2.6.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.2.6.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.7.0:test
+[INFO] \- org.springframework.security:spring-security-test:jar:5.3.2.RELEASE:test
+[INFO]    \- org.springframework.security:spring-security-core:jar:5.3.2.RELEASE:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.811 s
+[INFO] Finished at: 2020-11-17T14:46:01+01:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-zuul-post-filter" />
+        <module name="spring-boot-admin-server" />
+        <module name="sunSpringTest01" />
+        <module name="sunnyEurekaServer" />
+        <module name="sun-spring-admin-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-admin-server" target="1.8" />
+      <module name="spring-cloud-eureka-feign-client" target="1.8" />
+      <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-zuul-foos-resource" target="1.8" />
+      <module name="spring-zuul-post-filter" target="1.8" />
+      <module name="sun-spring-admin-server" target="1.8" />
+      <module name="sunnyEurekaServer" target="1.8" />
+      <module name="sunSpringTest01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="spring-cloud-eureka-feign-client" options="-parameters" />
+      <module name="spring-cloud-eureka-server" options="-parameters" />
+      <module name="spring-zuul-foos-resource" options="-parameters" />
+      <module name="spring-zuul-post-filter" options="-parameters" />
+      <module name="sun-spring-admin-server" options="-parameters" />
+      <module name="sunSpringTest01" options="-parameters" />
+      <module name="sunnyEurekaServer" options="-parameters" />
+    </option>
+  </component>
+</project>

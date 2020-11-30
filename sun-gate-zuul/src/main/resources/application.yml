@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: sun-gate
+
+  boot:
+    admin:
+      client:
+        username: admin
+        password: admin
+        url:
+          server: http://172.18.0.3:9665
+        instance:
+          metadata:
+            user:
+              name: client
+              password: client
+  port: 9662
+  use-forward-headers: true
+  max-http-header-size: 1000000
+
+  main:
+    allow-bean-definition-overriding: true
+
+  security:
+    user:
+      name: client
+      password: client
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: ALWAYS
+endpoints:
+  metrics:
+    enabled: TRUE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    healthcheck_enabled: true
+    register-with-eureka: false
+    fetch-registry: false
+    instance:
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+zuul:
+

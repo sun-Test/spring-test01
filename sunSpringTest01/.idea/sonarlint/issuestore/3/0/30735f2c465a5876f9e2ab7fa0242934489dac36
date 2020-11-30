@@ -1,0 +1,18 @@
+
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(Ê¦»ô8ƒÅÒÍß.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(Æµ’Œıÿÿÿÿ8ƒÅÒÍß.
+T	java:S106:"9Replace this use of System.out or System.err by a logger.(«®î,8ƒÅÒÍß.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§Œ»İúÿÿÿÿ8ƒÅÒÍß.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(Âû¯Ğüÿÿÿÿ8ƒÅÒÍß.
+o
+java:S1128"RRemove this unused import 'sunny.com.sunSpringTest01.Events.RabbitEventPublisher'.(÷§Ã³8•å¨¨à.
+k
+java:S11922"IDefine a constant instead of duplicating this literal "greeting" 3 times.(ü®ìüıÿÿÿÿ8ƒÅÒÍß.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ÔŒ±‚8ƒÅÒÍß.
+X	java:S1257"<This block of commented-out lines of code should be removed.(ìÌÉ’8ƒÅÒÍß.
+q
+java:S1215J"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ƒÅÒÍß.
+r
+java:S1192T"PDefine a constant instead of duplicating this literal "moni is running" 4 times.(‡Å¿ıÿÿÿÿ8ƒÅÒÍß.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(”óè–úÿÿÿÿ8ƒÅÒÍß.
+]	java:S125l"<This block of commented-out lines of code should be removed.(ÍŸ›Ùşÿÿÿÿ8ƒÅÒÍß.

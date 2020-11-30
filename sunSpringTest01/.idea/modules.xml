@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../sun-spring-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/../sun-spring-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sun-gate-zuul/spring-zuul-post-filter.iml" filepath="$PROJECT_DIR$/../sun-gate-zuul/spring-zuul-post-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-admin-server/sun-spring-admin-server.iml" filepath="$PROJECT_DIR$/../spring-boot-admin-server/sun-spring-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunSpringTest01.iml" filepath="$PROJECT_DIR$/sunSpringTest01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sunnyEurekaServer/sunnyEurekaServer.iml" filepath="$PROJECT_DIR$/../sunnyEurekaServer/sunnyEurekaServer.iml" />
+    </modules>
+  </component>
+</project>

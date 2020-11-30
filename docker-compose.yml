@@ -1,0 +1,61 @@
+version: '3'
+
+networks:
+  default:
+    external:
+      name: sun-net
+services:
+  sun-spring-admin:
+    build: ./sun-spring-admin-server
+    container_name: sun-spring-admin
+    networks:
+        default:
+            ipv4_address: 172.18.0.3
+    ports:
+      - "9665:9665"
+      
+  sun-spring-test01:
+    build: ./sunSpringTest01
+    container_name: sun-spring-test01
+    networks:
+        default:
+            ipv4_address: 172.18.0.5
+    ports:
+      - "9666:9666"
+      
+  sun-rabbit01:
+    image: rabbitmq:3.8-rc-management-alpine
+    container_name: sun-rabbit01
+    networks:
+        default:
+            ipv4_address: 172.18.0.6
+            
+  sun-eureka01:
+    build: ./sunnyEurekaServer
+    container_name: sun-eureka01
+    networks:
+        default:
+            ipv4_address: 172.18.0.9
+    ports:
+      - "9669:8761"
+      
+  sun-gate01:
+    build: ./sun-gate-zuul
+    container_name: sun-gate01
+    networks:
+        default:
+            ipv4_address: 172.18.0.12
+    ports:
+      - "9662:9662"
+  sun-prometheus01:
+    image: prom/prometheus:v2.23.0
+    container_name: sun-prometheus01
+    networks:
+        default:
+            ipv4_address: 172.18.0.10
+    ports:
+      - "9660:9090"
+    command:
+    - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+    - ../sunSpringTest01/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro

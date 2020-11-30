@@ -1,0 +1,14 @@
+
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¢‹±‡Ş.
+G
+java:S5411#"*Use the primitive boolean expression here.(°­ŠÑ8İ…ÒˆŞ.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ŞïÏÊûÿÿÿÿ8“²µˆŞ.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8“Ì±‡Ş.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ÃèÕÅÿÿÿÿÿ8¶ó¨ˆŞ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ìª‰ıÿÿÿÿ
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8À‘çˆŞ.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¨„¥‡Ş.
